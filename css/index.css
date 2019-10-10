@@ -1,1 +1,215 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  line-height: 1.5;
+  border: 1px solid black;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+}
+body header nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0;
+  font-size: 1.4rem;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+.column {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0% 2%;
+  height: 100%;
+}
+.column1 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  margin: 0% 2%;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  height: 10%;
+}
+.column2 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin: 0% 2%;
+  font-size: 1.3rem;
+}
+.xp {
+  padding: 2%;
+}
+.recognition {
+  width: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+}
+.recognition .experience {
+  width: 40%;
+  padding: 0% 2%;
+}
+.recognition .education {
+  width: 30%;
+}
+.recognition li {
+  margin: 3%;
+}
+h3 {
+  font-size: 1.5rem;
+  color: red;
+  font-family: 'Anton', sans-serif;
+}
+@media (max-width: 768px) {
+  header {
+    background-color: red;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    background-color: red;
+  }
+}
